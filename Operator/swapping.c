@@ -81,7 +81,7 @@ void main()
  */
 
 
- /* swapping of two numbers using xor operator
+ // swapping of two numbers using xor operator
 
     {
             int n1,n2;
@@ -96,6 +96,6 @@ void main()
             
             printf("after swap n1=%d and n2=%d\n",n1,n2);
     }
- */
+ 
 
  

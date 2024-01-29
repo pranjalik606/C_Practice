@@ -11,10 +11,18 @@ void main()
 }
 */
 
-//scan short int and print it on the screen
+/*scan short int and print it on the screen
 {
 	short int i;
 	printf("Enter a number...\n");
 	scanf("%hd",&i);                  // imp point is for short int we use %hd formate specifier.
 	printf("i = %hd\n",i);
+}
+*/
+
+//%p is a formate specifier to print the address of a variable 
+{
+	short int i,j;							//short int variable size is 2 byte 
+	printf("The address of i = %p\n",&i);
+	printf("The address of j = %p\n",&j);
 }
